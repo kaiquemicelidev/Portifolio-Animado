@@ -1,0 +1,38 @@
+.movie_zindexBack
+    width: 600px
+    height: auto
+    position: absolute
+    z-index: 3
+
+.movie_zindexFront
+    width: 600px
+    height: auto
+    position: absolute
+    z-index: 4
+
+
+
+.animation_opacity
+    animation: OpacitarAnimado 4s
+    animation-fill-mode: forwards
+
+.animation_desopacity
+    animation: DesopacitarAnimado 4s
+    animation-fill-mode: forwards
+
+
+
+@keyframes OpacitarAnimado
+    0%
+        opacity: 1
+
+    100%
+        opacity: 0
+    
+@keyframes DesopacitarAnimado
+    0%
+        opacity: 0
+
+    100%
+        opacity: 1
+    

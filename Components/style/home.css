@@ -1,0 +1,42 @@
+.Home {
+  width: 100%;
+  height: calc(100vh - 80px);
+  margin-top: 80px;
+  position: relative;
+}
+.Home .HomeContent {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.Home .HomeContent .HomeLeft {
+  width: 600px;
+  height: 100%;
+  flex-shrink: 0;
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.Home .HomeContent .HomeRight {
+  flex-grow: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 100px;
+  align-items: flex-end;
+  opacity: 0;
+}
+.Home .HomeContent .HomeRight h3 {
+  font-family: "Protest-Strike";
+  font-size: 2rem;
+}
+.Home .HomeContent .HomeRight h4 {
+  margin: 20px 0;
+  font-family: Roboto;
+  text-align: right;
+  color: #1c1c1c;
+}/*# sourceMappingURL=home.css.map */

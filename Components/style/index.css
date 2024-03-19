@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* body {
+  position: relative;
+}
+* main {
+  background: #CCD1D1;
+  width: 100%;
+  min-height: 100vh;
+  overflow: auto;
+  position: relative;
+}/*# sourceMappingURL=index.css.map */

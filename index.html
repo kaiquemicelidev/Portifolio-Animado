@@ -4,46 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kaique Miceli - Dev. Full Stack</title>
+
+    <link rel="stylesheet" href="Components/style/index.css">
+    <link rel="stylesheet" href="Components/style/animation_movie.css">
+    <link rel="stylesheet" href="Components/style/home.css">
+    <link rel="stylesheet" href="Components/style/about.css">
+    <link rel="stylesheet" href="Components/style/font.css">
+    <link rel="stylesheet" href="Components/style/flags.css">
+
+    <script src="Components/scriptJS/jquery-3.7.1.min.js"></script>
 </head>
 <body>
+
+    <section class="Flags">
+        <div class="HomeFlag"> <!----Utilizado pelo Observer-->
+            <span id="HomeFlagTop"></span>
+            <span id="HomeFlagCenter"></span>
+            <span id="HomeFlagBottom"></span>
+        </div>
+        <div class="AboutFlag"> <!----Utilizado pelo Observer-->
+            <span id="AboutFlagTop"></span>
+            <span id="AboutFlagCenter"></span>
+            <span id="AboutFlagBottom"></span>
+        </div>
+    </section>
+
+
     <main>
-        
         <!-----------------------------HOME-------------------->
         <section class="Home">
             <div class="HomeContent">
-                <div class="HomeVideo">
-
-                </div>
+                <div class="HomeLeft"></div>
                 <div class="HomeRight">
-
+                    <h1>Kaíque Miceli</h1>
+                    <h3>Full Stack Developer</h3>
+                    <h4>Obrigado pela visita. <br />
+                    Nesta página encontrará informações de minha pessoa e de meus trabalhos profissionais.</h4>
                 </div>
             </div>
-            <div class="HomeFlag">
-                <span id="HomeFlagTop"></span>
-                <span id="HomeFlagCenter"></span>
-                <span id="HomeFlagBottom"></span>
-            </div>
+            
         </section>
         <!----------------------------/HOME-------------------->
 
         <!-----------------------------ABOUT-------------------->
         <section class="About">
             <div class="AboutContent">
-                <div class="AboutVideo">
+                <div class="AboutLeft">
 
                 </div>
                 <div class="AboutRight">
+                    <p>
+                        Natural de São Carlos, tenho <span class='age'>38</span> anos.<br />
+                    </p>
+                    <p>
+                        Trabalho com TI desde os 16 anos na área de manutenção de equipamentos. Depois
+                        comecei a trabalhar com desenvolvimento de websites pessoais e de pequenos negócios.<br />
+                        Iniciei recentemente uma graduação em Sistemas de Informação.<br />
+                    </p>
+                    <p>Estou agora focado nas novas tendências, me aprimorando também em back end para me tornar
+                        um excelente developer full stack.<br />
+                    </p>
+                    <p>Tenho conhecimento em consumo e desenvolvimento de API's, versionamento, manipulação de arquivos e já estou
+                        familiarizado com metodologias ágeis como (Kanban e Scrum).
+                    </p>
 
                 </div>
             </div>
-            <div class="AboutFlag">
-                <span id="AboutFlagTop"></span>
-                <span id="AboutFlagCenter"></span>
-                <span id="AboutFlagBottom"></span>
-            </div>
+
         </section>
         <!----------------------------/ABOUT-------------------->
 
     </main>
+
+
 </body>
 </html>
+
+<script src="Components/scriptJS/scriptVideos.js">
+
+</script>
